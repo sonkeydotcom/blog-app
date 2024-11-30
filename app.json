@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "blog-app",
+    "slug": "blog-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sonkey.blogapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sonkey.blogapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3ec8cc0d-82af-4d3e-9a7c-cdf585263ee8"
+      }
+    },
+    "owner": "sonkey",
+    "updates": {
+      "url": "https://u.expo.dev/3ec8cc0d-82af-4d3e-9a7c-cdf585263ee8"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
