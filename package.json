@@ -42,7 +42,8 @@
     "react-native-webview": "13.12.2",
     "expo-dev-client": "~5.0.4",
     "expo-insights": "~0.8.1",
-    "expo-updates": "~0.26.9"
+    "expo-updates": "~0.26.9",
+    "@react-native-async-storage/async-storage": "1.23.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
